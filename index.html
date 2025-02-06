@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Batalha Naval</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Batalha Naval</h1>
+    <p>
+        1. Posicione seu barco clicando em uma célula do seu campo. <br>
+        2. A máquina posiciona o barco dela aleatoriamente. <br>
+        3. Ataque o inimigo digitando as coordenadas.
+    </p>
+
+    <h2>Seu Campo</h2>
+    <div id="player-board" class="board"></div>
+
+    <h2>Campo Inimigo</h2>
+    <div id="enemy-board" class="board"></div>
+
+    <button id="start-game" disabled>Iniciar Jogo</button>
+
+    <div id="game-status"></div>
+
+    <input type="text" id="attack-input" placeholder="Ataque (linha,coluna)" disabled>
+    <button id="attack-button" disabled>Atacar</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
